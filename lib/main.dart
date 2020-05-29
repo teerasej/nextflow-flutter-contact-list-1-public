@@ -36,13 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("Nextflow Contact"),
       ),
-      body: ListView.builder(
-        itemCount: 20,
-        itemBuilder: (BuildContext context, int index) {
-          return ListTile(
-            title: Text('$index'),
-          );
-        },)
+      body: Container()
     );
   }
 }
